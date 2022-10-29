@@ -1,27 +1,27 @@
 {
   "files": {
-    "main.css": "https://www.skezzowski.github.io/wedding/static/css/main.3ba11a60.css",
-    "main.js": "https://www.skezzowski.github.io/wedding/static/js/main.651464d7.js",
-    "static/js/612.bb4f4e0c.chunk.js": "https://www.skezzowski.github.io/wedding/static/js/612.bb4f4e0c.chunk.js",
-    "static/js/609.b2b6a7a1.chunk.js": "https://www.skezzowski.github.io/wedding/static/js/609.b2b6a7a1.chunk.js",
-    "static/js/281.e98bea78.chunk.js": "https://www.skezzowski.github.io/wedding/static/js/281.e98bea78.chunk.js",
-    "static/js/333.011b86dd.chunk.js": "https://www.skezzowski.github.io/wedding/static/js/333.011b86dd.chunk.js",
-    "static/js/326.52cb48d3.chunk.js": "https://www.skezzowski.github.io/wedding/static/js/326.52cb48d3.chunk.js",
-    "static/js/116.c6634734.chunk.js": "https://www.skezzowski.github.io/wedding/static/js/116.c6634734.chunk.js",
-    "static/js/110.1f55d85a.chunk.js": "https://www.skezzowski.github.io/wedding/static/js/110.1f55d85a.chunk.js",
-    "index.html": "https://www.skezzowski.github.io/wedding/index.html",
-    "main.3ba11a60.css.map": "https://www.skezzowski.github.io/wedding/static/css/main.3ba11a60.css.map",
-    "main.651464d7.js.map": "https://www.skezzowski.github.io/wedding/static/js/main.651464d7.js.map",
-    "612.bb4f4e0c.chunk.js.map": "https://www.skezzowski.github.io/wedding/static/js/612.bb4f4e0c.chunk.js.map",
-    "609.b2b6a7a1.chunk.js.map": "https://www.skezzowski.github.io/wedding/static/js/609.b2b6a7a1.chunk.js.map",
-    "281.e98bea78.chunk.js.map": "https://www.skezzowski.github.io/wedding/static/js/281.e98bea78.chunk.js.map",
-    "333.011b86dd.chunk.js.map": "https://www.skezzowski.github.io/wedding/static/js/333.011b86dd.chunk.js.map",
-    "326.52cb48d3.chunk.js.map": "https://www.skezzowski.github.io/wedding/static/js/326.52cb48d3.chunk.js.map",
-    "116.c6634734.chunk.js.map": "https://www.skezzowski.github.io/wedding/static/js/116.c6634734.chunk.js.map",
-    "110.1f55d85a.chunk.js.map": "https://www.skezzowski.github.io/wedding/static/js/110.1f55d85a.chunk.js.map"
+    "main.css": "https://skezzowski.github.io/wedding/static/css/main.3ba11a60.css",
+    "main.js": "https://skezzowski.github.io/wedding/static/js/main.b9fea04a.js",
+    "static/js/612.bb4f4e0c.chunk.js": "https://skezzowski.github.io/wedding/static/js/612.bb4f4e0c.chunk.js",
+    "static/js/609.b2b6a7a1.chunk.js": "https://skezzowski.github.io/wedding/static/js/609.b2b6a7a1.chunk.js",
+    "static/js/281.e98bea78.chunk.js": "https://skezzowski.github.io/wedding/static/js/281.e98bea78.chunk.js",
+    "static/js/333.011b86dd.chunk.js": "https://skezzowski.github.io/wedding/static/js/333.011b86dd.chunk.js",
+    "static/js/326.52cb48d3.chunk.js": "https://skezzowski.github.io/wedding/static/js/326.52cb48d3.chunk.js",
+    "static/js/116.c6634734.chunk.js": "https://skezzowski.github.io/wedding/static/js/116.c6634734.chunk.js",
+    "static/js/110.1f55d85a.chunk.js": "https://skezzowski.github.io/wedding/static/js/110.1f55d85a.chunk.js",
+    "index.html": "https://skezzowski.github.io/wedding/index.html",
+    "main.3ba11a60.css.map": "https://skezzowski.github.io/wedding/static/css/main.3ba11a60.css.map",
+    "main.b9fea04a.js.map": "https://skezzowski.github.io/wedding/static/js/main.b9fea04a.js.map",
+    "612.bb4f4e0c.chunk.js.map": "https://skezzowski.github.io/wedding/static/js/612.bb4f4e0c.chunk.js.map",
+    "609.b2b6a7a1.chunk.js.map": "https://skezzowski.github.io/wedding/static/js/609.b2b6a7a1.chunk.js.map",
+    "281.e98bea78.chunk.js.map": "https://skezzowski.github.io/wedding/static/js/281.e98bea78.chunk.js.map",
+    "333.011b86dd.chunk.js.map": "https://skezzowski.github.io/wedding/static/js/333.011b86dd.chunk.js.map",
+    "326.52cb48d3.chunk.js.map": "https://skezzowski.github.io/wedding/static/js/326.52cb48d3.chunk.js.map",
+    "116.c6634734.chunk.js.map": "https://skezzowski.github.io/wedding/static/js/116.c6634734.chunk.js.map",
+    "110.1f55d85a.chunk.js.map": "https://skezzowski.github.io/wedding/static/js/110.1f55d85a.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.3ba11a60.css",
-    "static/js/main.651464d7.js"
+    "static/js/main.b9fea04a.js"
   ]
 }
