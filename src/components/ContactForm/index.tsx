@@ -68,9 +68,6 @@ const Contact = ({ title, content, id, t }: ContactProps) => {
                 <Button name="submit">{t("Submit")}</Button>
               </ButtonContainer>
             </FormGroup>
-            <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfA-h9M-IXXSmIJ3mkam5thhyH1-aX65OoJPVQTF72m8OOOyg/viewform?embedded=true" width="640" height="1105" frameBorder="0">
-              Loading…
-              </iframe>
           </Slide>
         </Col>
       </Row>

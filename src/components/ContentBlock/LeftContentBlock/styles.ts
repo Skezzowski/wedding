@@ -31,12 +31,12 @@ export const ServiceWrapper = styled("div")`
 export const MinTitle = styled("h6")`
   font-size: 15px;
   line-height: 1rem;
+  font-weight: bold;
+  color: rgb(24, 33, 109)
   padding: 0.5rem 0;
-  text-transform: uppercase;
-  color: #000;
   font-family: "Motiva Sans Light", sans-serif;
 `;
 
 export const MinPara = styled("p")`
-  font-size: 13px;
+  font-size: 15px;
 `;

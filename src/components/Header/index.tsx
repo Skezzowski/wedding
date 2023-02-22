@@ -15,9 +15,11 @@ import {
   Outline,
   Span,
 } from "./styles";
+import { useHistory } from 'react-router-dom';
 
 const Header = ({ t }: any) => {
   const [visible, setVisibility] = useState(false);
+  const history = useHistory();
 
   const showDrawer = () => {
     setVisibility(!visible);
@@ -37,21 +39,21 @@ const Header = ({ t }: any) => {
     };
     return (
       <>
-        <CustomNavLinkSmall onClick={() => scrollTo("about")}>
-          <Span>{t("About")}</Span>
+        <CustomNavLinkSmall onClick={() => history.push("arrival")}>
+          <Span>{t("Megközelítés")}</Span>
         </CustomNavLinkSmall>
-        <CustomNavLinkSmall onClick={() => scrollTo("mission")}>
-          <Span>{t("Mission")}</Span>
+        <CustomNavLinkSmall onClick={() => history.push("accommodation")}>
+          <Span>{t("Szállások")}</Span>
         </CustomNavLinkSmall>
-        <CustomNavLinkSmall onClick={() => scrollTo("product")}>
-          <Span>{t("Product")}</Span>
+        <CustomNavLinkSmall onClick={() => history.push("program")}>
+          <Span>{t("Program")}</Span>
         </CustomNavLinkSmall>
         <CustomNavLinkSmall
-          style={{ width: "180px" }}
-          onClick={() => scrollTo("contact")}
+          style={{ width: "180px", marginRight: 0 }}
+          onClick={() => history.push("rsvp")}
         >
           <Span>
-            <Button>{t("Contact")}</Button>
+            <Button>{t("Visszajelzés")}</Button>
           </Span>
         </CustomNavLinkSmall>
       </>
