@@ -4,7 +4,6 @@ import styled from "styled-components";
 import { MinTitle, MinPara } from "../../components/ContentBlock/LeftContentBlock/styles";
 
 const Container = lazy(() => import("../../common/Container"));
-const ContentBlock = lazy(() => import("../../components/ContentBlock"));
 
 const MapContainer = styled("div")`
   display: flex;
@@ -41,7 +40,7 @@ const Accommodation = () => {
                 </MinPara>
               </TextContainer>
               <div style={{width: '100%', height: '100%', flex: 1, flexGrow: 2, minWidth: '60%'}}>
-                <iframe src="https://www.google.com/maps/d/u/0/embed?mid=1w4Nwq7g59TZhaBJqWzv1tV49Ia9TJiMZ" width="100%" height="100%"></iframe>
+                <iframe title="Szállás Térkép" src="https://www.google.com/maps/d/u/0/embed?mid=1w4Nwq7g59TZhaBJqWzv1tV49Ia9TJiMZ" width="100%" height="100%"></iframe>
               </div>
           </MapContainer>
         </Fade>
