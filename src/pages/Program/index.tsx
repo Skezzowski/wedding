@@ -7,7 +7,6 @@ const ContentBlock = lazy(() => import("../../components/ContentBlock"));
 const Program = () => {
   return (
     <Container>
-      Program
       <ContentBlock
         type="left"
         title={AboutContent.title}
