@@ -1,6 +1,7 @@
 {
-  "name": "my-app",
+  "name": "wedding-website",
   "homepage": "https://www.skezzowski.github.io/wedding",
+  "description": "test",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
