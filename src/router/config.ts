@@ -1,13 +1,8 @@
 const routes = [
   {
-    path: ["/", "/home"],
+    path: ["/", "/information"],
     exact: true,
-    component: "Home",
-  },
-  {
-    path: ["/arrival"],
-    exact: true,
-    component: "Arrival",
+    component: "Information",
   },
   {
     path: ["/accommodation"],

@@ -20,17 +20,12 @@ const MiddleBlock = ({ title, content, button, t }: MiddleBlockProps) => {
   };
   return (
     <MiddleBlockSection>
-      <Slide direction="up">
-        <Row justify="center" align="middle">
+      <Slide direction="left">
+        <Row>
           <ContentWrapper>
             <Col lg={24} md={24} sm={24} xs={24}>
               <h6>{t(title)}</h6>
               <Content>{t(content)}</Content>
-              {button && (
-                <Button name="submit" onClick={() => scrollTo("mission")}>
-                  {t(button)}
-                </Button>
-              )}
             </Col>
           </ContentWrapper>
         </Row>

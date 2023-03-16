@@ -32,8 +32,8 @@ const Header = ({ t }: any) => {
   const MenuItem = () => {
     return (
       <>
-        <CustomNavLinkSmall onClick={() => history.push("arrival")}>
-          <Span>{t("Megközelítés")}</Span>
+        <CustomNavLinkSmall onClick={() => history.push("information")}>
+          <Span>{t("Információ")}</Span>
         </CustomNavLinkSmall>
         <CustomNavLinkSmall onClick={() => history.push("accommodation")}>
           <Span>{t("Szállások")}</Span>

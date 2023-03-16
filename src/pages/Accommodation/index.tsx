@@ -33,11 +33,11 @@ const Accommodation = () => {
           <MapContainer>
               <TextContainer>
                 <Title>Szállások</Title>
-                <MinPara> 
-                  Az alábbi térképen találhatóak a Loshi Major közelében lévő szállások, melyek közül szabadon választhattok. <br/>
+                <p> 
+                  Az alábbi térképen találhatóak a Lósi Major közelében lévő szállások, melyek közül szabadon választhattok. <br/>
                   <br/>
-                  Ha szükség van segítségre, keressétek Orsit! :)
-                </MinPara>
+                  Ha szükség van segítségre, keressétek minket bizalommal! :)
+                </p>
               </TextContainer>
               <div style={{width: '100%', height: '100%', flex: 1, flexGrow: 2, minWidth: '60%'}}>
                 <iframe title="Szállás Térkép" src="https://www.google.com/maps/d/u/0/embed?mid=1w4Nwq7g59TZhaBJqWzv1tV49Ia9TJiMZ" width="100%" height="100%"></iframe>
