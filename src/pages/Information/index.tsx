@@ -1,10 +1,7 @@
 import { lazy } from "react";
 import styled from "styled-components";
-import MiddleBlock from "../../components/MiddleBlock";
-import AboutContent from "../../content/AboutContent.json";
 
 const Container = lazy(() => import("../../common/Container"));
-const ContentBlock = lazy(() => import("../../components/ContentBlock"));
 
 export const MainContentContainer = styled("div")`
   display: flex;
@@ -34,7 +31,7 @@ export const TextParagraph = styled("div")`
 const Information = () => {
   return (
     <MainContentContainer>
-      <img src="/img/izlandkiss7.png" width={"100%"} /> 
+      <img src="/img/izlandkiss7.png" width={"100%"} alt="" /> 
       <Container>
         <TextParagraph>
           <h6>

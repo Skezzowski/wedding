@@ -1,7 +1,7 @@
 import { lazy } from "react";
 import { Fade } from "react-awesome-reveal";
 import styled from "styled-components";
-import { MinTitle, MinPara } from "../../components/ContentBlock/LeftContentBlock/styles";
+import { MinTitle } from "../../components/ContentBlock/LeftContentBlock/styles";
 
 const Container = lazy(() => import("../../common/Container"));
 
