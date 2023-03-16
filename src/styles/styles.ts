@@ -61,13 +61,14 @@ export const Styles = createGlobalStyle`
         color: #18216d;
         font-size: 46px;
         line-height: 1.18;
+        font-weight: bold;
 
         @media only screen and (max-width: 890px) {
           font-size: 37px;
         }
       
         @media only screen and (max-width: 414px) {
-          font-size: 22px;
+          font-size: 30px;
         }
     }
 
