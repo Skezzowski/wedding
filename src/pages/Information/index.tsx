@@ -65,7 +65,7 @@ const Information = () => {
               Sajnos szállást nem tudunk biztosítani, de egy részletes listát találhattok a "Szállások" menüpont alatt, ezeket mind teljes szívvel ajánljuk.
             </p>
             <p>
-            Mivel a telek nagy része a miénk erre a kis időre, így a válalkozó szellemüek akár <b>sátorral </b> vagy <b>lakókocsival</b> is érkezhetnek!
+            Mivel a telek nagy része a miénk erre a kis időre, így a vállalkozó szellemüek akár <b>sátorral </b> vagy <b>lakókocsival</b> is érkezhetnek!
             </p>
             <div style={{ width: '100%', height: '32rem', flex: 1, flexGrow: 2, minWidth: '60%' }}>
               <iframe title="Szállás Térkép" src="https://www.google.com/maps/d/u/0/embed?mid=10yBO2wGA57re8MVqKxJv2thTHq-oVFU&ehbc=2E312F" width="100%" height="100%"></iframe>

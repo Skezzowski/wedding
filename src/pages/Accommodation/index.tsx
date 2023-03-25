@@ -36,7 +36,7 @@ const Accommodation = () => {
                 <p> 
                   Az alábbi térképen találhatóak a Lósi Major közelében lévő szállások, melyek közül szabadon választhattok. <br/>
                   <br/>
-                  Ha szükség van segítségre, keressétek minket bizalommal! :)
+                  Ha szükség van segítségre, keressetek minket bizalommal! :)
                 </p>
               </TextContainer>
               <div style={{width: '100%', height: '100%', flex: 1, flexGrow: 2, minWidth: '60%'}}>
