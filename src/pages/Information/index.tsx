@@ -59,6 +59,7 @@ const Information = () => {
               Az esküvő helyszíne a <b>Lósi Major</b>.<br />
               <b>Cím</b>: 2621 Verőce, Lósi völgy út 1.<br />
               <b>Koordináták</b>: É47,82867   K19,05899<br />
+              <u><a href="https://goo.gl/maps/9rt182Qe58xCHCoM8">Google Maps Link</a></u>
             </p>
             <p>
               Sajnos szállást nem tudunk biztosítani, de egy részletes listát találhattok a "Szállások" menüpont alatt, ezeket mind teljes szívvel ajánljuk.
@@ -90,7 +91,7 @@ const Information = () => {
             • A Mennyaszonyrablást a törvény bünteti, de attól még lehet.
             </p>
             <p>
-            • Atuókkal az autó-karámba parkoljatok, hogy nehogy megszökjenek.
+            • Autókkal az "autó-karámba" parkoljatok, hogy nehogy megszökjenek.
             </p>
           </TextParagraph>
         </Slide>
