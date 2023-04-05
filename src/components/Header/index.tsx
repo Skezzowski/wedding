@@ -15,11 +15,9 @@ import {
   Outline,
   Span,
 } from "./styles";
-import { useHistory, useLocation } from 'react-router-dom';
 
 const Header = ({ t }: any) => {
   const [visible, setVisibility] = useState(false);
-  const history = useHistory();
 
   const showDrawer = () => {
     setVisibility(!visible);
@@ -30,15 +28,13 @@ const Header = ({ t }: any) => {
   };
 
   const MenuItem = () => {
-    const location = useLocation();
-    
     const scrollTo = (id: string) => {
-        const element = document.getElementById(id) as HTMLDivElement;
-        element.scrollIntoView({
-          behavior: "smooth",
-          block: id=="rsvp" ? "start" : "center"
-        });
-        setVisibility(false);
+      const element = document.getElementById(id) as HTMLDivElement;
+      element.scrollIntoView({
+        behavior: "smooth",
+        block: id === "rsvp" ? "start" : "center"
+      });
+      setVisibility(false);
     };
     return (
       <>

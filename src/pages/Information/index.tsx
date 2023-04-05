@@ -1,5 +1,4 @@
 import { Col, Row } from "antd";
-import { Footer } from "antd/lib/layout/layout";
 import { lazy } from "react";
 import { Slide } from "react-awesome-reveal";
 import styled from "styled-components";
@@ -82,7 +81,6 @@ const Information = () => {
         </Slide>
 
         <BlockWithMapSection>
-          <a href="#place" />
           <Row justify="center" align="middle" id="place">
             <Col lg={8} md={8} sm={24} xs={24} >
               <Slide direction="left">
@@ -138,7 +136,6 @@ const Information = () => {
 
         <Slide direction="left">
           <TextParagraph id="goodToKnow" >
-            <a href="#goodToKnow" />
             <h6 style={{ textAlign: "center" }}>
               Fontos tudnivalók
             </h6>
