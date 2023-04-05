@@ -1,6 +1,9 @@
+import { Col, Row } from "antd";
+import { Footer } from "antd/lib/layout/layout";
 import { lazy } from "react";
 import { Slide } from "react-awesome-reveal";
 import styled from "styled-components";
+import { BlockWithMapSection } from "../../components/BlockWithMap/styles";
 
 const Container = lazy(() => import("../../common/Container"));
 
@@ -29,13 +32,40 @@ export const TextParagraph = styled("div")`
   padding: 1rem;
 `;
 
+const RsvpContainer = styled('div')`
+  align-items: center;
+  justify-content: center;
+  padding-top: 8rem;
+  display: flex;
+  width: 100%;
+
+  height: 1600px;
+
+  @media only screen and (max-width: 1024px) {
+    height: 1700px;
+  }
+
+  @media only screen and (max-width: 768px) {
+    height: 1800px;
+  }
+
+  @media only screen and (max-width: 414px) {
+    height: 1900px;
+  }
+
+  flex-direction: column;
+  overflow: hidden;
+`
+
+
 const Information = () => {
   return (
     <MainContentContainer>
       <img src="/img/izlandkiss7.png" width={"100%"} alt="" />
+
       <Container>
         <Slide direction="left">
-          <TextParagraph>
+          <TextParagraph style={{ textAlign: "center" }} id="intro">
             <h6>
               Összeházasodunk!
             </h6>
@@ -50,53 +80,94 @@ const Information = () => {
             </p>
           </TextParagraph>
         </Slide>
-        <Slide direction="left">
-          <TextParagraph>
-            <h6>
-              Helyszín
-            </h6>
-            <p>
-              Az esküvő helyszíne a <b>Lósi Major</b>.<br />
-              <b>Cím</b>: 2621 Verőce, Lósi völgy út 1.<br />
-              <b>Koordináták</b>: É47,82867   K19,05899<br />
-              <u><a href="https://goo.gl/maps/9rt182Qe58xCHCoM8">Google Maps Link</a></u>
-            </p>
-            <p>
-              Sajnos szállást nem tudunk biztosítani, de egy részletes listát találhattok a "Szállások" menüpont alatt, ezeket mind teljes szívvel ajánljuk.
-            </p>
-            <p>
-            Mivel a telek nagy része a miénk erre a kis időre, így a vállalkozó szellemüek akár <b>sátorral </b> vagy <b>lakókocsival</b> is érkezhetnek!
-            </p>
-            <div style={{ width: '100%', height: '32rem', flex: 1, flexGrow: 2, minWidth: '60%' }}>
-              <iframe title="Szállás Térkép" src="https://www.google.com/maps/d/u/0/embed?mid=10yBO2wGA57re8MVqKxJv2thTHq-oVFU&ehbc=2E312F" width="100%" height="100%"></iframe>
-            </div>
-          </TextParagraph>
-        </Slide>
+
+        <BlockWithMapSection>
+          <a href="#place" />
+          <Row justify="center" align="middle" id="place">
+            <Col lg={8} md={8} sm={24} xs={24} >
+              <Slide direction="left">
+                <div>
+                  <h6>
+                    Helyszín
+                  </h6>
+                  <p>
+                    Az esküvő helyszíne a <b>Lósi Major</b>.<br />
+                    <b>Cím</b>: 2621 Verőce, Lósi völgy út 1.<br />
+                    <b>Koordináták</b>: É47,82867   K19,05899<br />
+                    <u><a href="https://goo.gl/maps/9rt182Qe58xCHCoM8">Google Maps Link</a></u>
+                  </p>
+                  <p>
+                    Mivel a telek nagy része a miénk erre a kis időre, így a vállalkozó szellemüek akár <b>sátorral </b> vagy <b>lakókocsival</b> is érkezhetnek!
+                  </p>
+                </div>
+              </Slide>
+            </Col>
+            <Col lg={16} md={16} sm={24} xs={24}>
+              <Slide direction="right">
+                <div style={{ height: '32rem', flex: 1, flexGrow: 2, minWidth: '60%' }}>
+                  <iframe title="Szállás Térkép" src="https://www.google.com/maps/d/u/0/embed?mid=10yBO2wGA57re8MVqKxJv2thTHq-oVFU&ehbc=2E312F" width="100%" height="100%"></iframe>
+                </div>
+              </Slide>
+            </Col>
+          </Row>
+        </BlockWithMapSection>
+
+        <BlockWithMapSection>
+          <Row justify="center" align="middle" id="accomodation">
+            <Col lg={8} md={8} sm={24} xs={24}>
+              <Slide direction="left">
+                <div>
+                  <h6>Szállások</h6>
+                  <p>
+                    Ezen a térképen találhatóak a Lósi Major közelében lévő szállások, melyek közül szabadon választhattok. <br />
+                    <br />
+                    Ha szükség van segítségre, keressetek minket bizalommal! :)
+                  </p>
+                </div>
+              </Slide>
+            </Col>
+            <Col lg={16} md={16} sm={24} xs={24}>
+              <Slide direction="right">
+                <div style={{ height: '32rem', flex: 1, flexGrow: 2, minWidth: '60%' }}>
+                  <iframe title="Szállás Térkép" src="https://www.google.com/maps/d/u/0/embed?mid=1w4Nwq7g59TZhaBJqWzv1tV49Ia9TJiMZ" width="100%" height="100%"></iframe>
+                </div>
+              </Slide>
+            </Col>
+          </Row>
+        </BlockWithMapSection>
 
         <Slide direction="left">
-          <TextParagraph>
-            <h6>
-              Fontos tudni
+          <TextParagraph id="goodToKnow" >
+            <a href="#goodToKnow" />
+            <h6 style={{ textAlign: "center" }}>
+              Fontos tudnivalók
             </h6>
             <p>
-            • Ajándékot csak olyan formában hozzatok, hogy malacperselyünk is meg tudja emészteni!
+              • Kérünk titeket, hogy ajándékot olyan formába hozzatok, amit malacperselyünk is meg tud emészteni.
             </p>
             <p>
-            • A mai gazdasági helyzetre tekintettel, a menyecsketánc elmarad. Természetesen attól még a menyecske megtáncoltatható. Megértéseket köszönjük!
+              • A menyecske ingyen és bérmentve megtáncoltatható az éjszaka folyamán.
             </p>
             <p>
-            • Ló és kecskeharapásért felelőséget nem vállalunk! A lámáért igen.
+              • Ló és kecskeharapásért felelőséget nem vállalunk! A lámáért igen.
             </p>
             <p>
-            • A Mennyaszonyrablást a törvény bünteti, de attól még lehet.
+              • A Mennyaszonyrablást a törvény bünteti, de attól még lehet.
             </p>
             <p>
-            • Autókkal az "autó-karámba" parkoljatok, hogy nehogy megszökjenek.
+              • Autókkal az "autó-karámba" parkoljatok, hogy nehogy megszökjenek.
             </p>
           </TextParagraph>
         </Slide>
+        <RsvpContainer id="rsvp">
+          <iframe title=" " src="https://docs.google.com/forms/d/e/1FAIpQLSfA-h9M-IXXSmIJ3mkam5thhyH1-aX65OoJPVQTF72m8OOOyg/viewform?embedded=true"
+            width="100%" height="100%" style={{flexGrow: 1, border: "none", margin: 0, padding: 0}} scrolling="no">
+            Loading…
+          </iframe>
+        </RsvpContainer>
       </Container>
     </MainContentContainer>
+
   );
 };
 

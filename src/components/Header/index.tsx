@@ -15,7 +15,7 @@ import {
   Outline,
   Span,
 } from "./styles";
-import { useHistory } from 'react-router-dom';
+import { useHistory, useLocation } from 'react-router-dom';
 
 const Header = ({ t }: any) => {
   const [visible, setVisibility] = useState(false);
@@ -30,20 +30,30 @@ const Header = ({ t }: any) => {
   };
 
   const MenuItem = () => {
+    const location = useLocation();
+    
+    const scrollTo = (id: string) => {
+        const element = document.getElementById(id) as HTMLDivElement;
+        element.scrollIntoView({
+          behavior: "smooth",
+          block: id=="rsvp" ? "start" : "center"
+        });
+        setVisibility(false);
+    };
     return (
       <>
-        <CustomNavLinkSmall onClick={() => history.push("information")}>
-          <Span>{t("Információ")}</Span>
+        <CustomNavLinkSmall onClick={() => scrollTo("place")}>
+          <Span>{t("Helyszín")}</Span>
         </CustomNavLinkSmall>
-        <CustomNavLinkSmall onClick={() => history.push("accommodation")}>
+        <CustomNavLinkSmall onClick={() => scrollTo("accomodation")}>
           <Span>{t("Szállások")}</Span>
         </CustomNavLinkSmall>
-        <CustomNavLinkSmall onClick={() => history.push("program")}>
-          <Span>{t("Program")}</Span>
+        <CustomNavLinkSmall onClick={() => { scrollTo("goodToKnow") }}>
+          <Span>{t("Tudnivalók")}</Span>
         </CustomNavLinkSmall>
         <CustomNavLinkSmall
           style={{ width: "180px", marginRight: 0 }}
-          onClick={() => history.push("rsvp")}
+          onClick={() => scrollTo("rsvp")}
         >
           <Span>
             <Button>{t("Visszajelzés")}</Button>
