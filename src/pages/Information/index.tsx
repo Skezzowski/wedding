@@ -92,10 +92,10 @@ const Information = () => {
                     Az esküvő helyszíne a <b>Lósi Major</b>.<br />
                     <b>Cím</b>: 2621 Verőce, Lósi völgy út 1.<br />
                     <b>Koordináták</b>: É47,82867   K19,05899<br />
-                    <u><a href="https://goo.gl/maps/9rt182Qe58xCHCoM8">Google Maps Link</a></u>
+                    <u><a href="https://goo.gl/maps/9rt182Qe58xCHCoM8" target="_blank">Google Maps Link</a></u>
                   </p>
                   <p>
-                    Mivel a telek nagy része a miénk erre a kis időre, így a vállalkozó szellemüek akár <b>sátorral </b> vagy <b>lakókocsival</b> is érkezhetnek!
+                    Mivel a telek nagy része a miénk erre a kis időre, így a vállalkozó szelleműek akár <b>sátorral </b> vagy <b>lakókocsival</b> is érkezhetnek!
                   </p>
                 </div>
               </Slide>
@@ -140,19 +140,19 @@ const Information = () => {
               Fontos tudnivalók
             </h6>
             <p>
-              • Kérünk titeket, hogy ajándékot olyan formába hozzatok, amit malacperselyünk is meg tud emészteni.
+              • Kérünk titeket, hogy ajándékot olyan formában hozzatok, amit malacperselyünk is meg tud emészteni.
             </p>
             <p>
               • A menyecske ingyen és bérmentve megtáncoltatható az éjszaka folyamán.
             </p>
             <p>
-              • Ló és kecskeharapásért felelőséget nem vállalunk! A lámáért igen.
+              • Ló- és kecskeharapásért felelőséget nem vállalunk! A lámáért igen.
             </p>
             <p>
-              • A Mennyaszonyrablást a törvény bünteti, de attól még lehet.
+              • A Menyasszonyrablást a törvény bünteti, de attól még lehet.
             </p>
             <p>
-              • Autókkal az "autó-karámba" parkoljatok, hogy nehogy megszökjenek.
+              • Autókkal az "autó-karámban" parkoljatok, hogy nehogy megszökjenek.
             </p>
           </TextParagraph>
         </Slide>
