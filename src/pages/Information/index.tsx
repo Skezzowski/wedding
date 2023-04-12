@@ -92,7 +92,7 @@ const Information = () => {
                     Az esküvő helyszíne a <b>Lósi Major</b>.<br />
                     <b>Cím</b>: 2621 Verőce, Lósi völgy út 1.<br />
                     <b>Koordináták</b>: É47,82867   K19,05899<br />
-                    <u><a href="https://goo.gl/maps/9rt182Qe58xCHCoM8" target="_blank">Google Maps Link</a></u>
+                    <u><a href="https://goo.gl/maps/9rt182Qe58xCHCoM8" target="_blank" rel="noreferrer">Google Maps Link</a></u>
                   </p>
                   <p>
                     Mivel a telek nagy része a miénk erre a kis időre, így a vállalkozó szelleműek akár <b>sátorral </b> vagy <b>lakókocsival</b> is érkezhetnek!
